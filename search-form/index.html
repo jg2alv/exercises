@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="corpo">
+        <div id="formulario">
+            <form action="insere.php" method="post">
+                <div class="data direita" id="">
+                    <label for="data_de_nascimento">Data de Nascimento:</label><br>
+                    <input type="text" size="25" placeholder="__/__/____">
+                </div>
+
+                <div class="esquerda" id="">
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" size="35" placeholder="Nome Completo">
+                </div>
+                <div class="rg esquerda" id="">
+                    <label for="rg">RG:</label><br>
+                    <input type="text" placeholder="00.000.000-0">
+                </div>
+                <div class="cpf direita" id="">
+                    <label for="cpf">CPF:</label><br>
+                    <input type="text" size="25" placeholder="000.000.000-0">
+                </div>
+                <div class="esquerda" id="">
+                    <label for="filiacao_pai">Pai:</label><br>
+                    <input type="text" size="30" placeholder="Nome do Pai">
+                </div>
+                <div class="direita" id="">
+                    <label for="filiacao_mae">Mãe:</label><br>
+                    <input type="text" size="25" placeholder="Nome da Mãe">
+                </div>
+                <div class="esquerda" id="">
+                    <label for="escolaridade">Escolaridade:</label><br>
+                    <select name="escolaridade" id="">
+                        <option value="Selecione">Selecione</option>
+                    </select>
+                </div>
+                <div class="direita" id="">
+                    <label for="profissao">Profissão:</label><br>
+                    <input type="text" size="25" placeholder="Profissão">
+                </div>
+                <div class="telefone esquerda" id="">
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="text" placeholder="0000-0000">
+                </div>
+                <div class="celular direita" id="">
+                    <label for="celular">Ceular:</label><br>
+                    <input type="text" size="25" placeholder="(00) 0000-0000">
+                </div>
+                <div class="esquerda" id="">
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" size="35" placeholder="exemplo@email.com">
+                </div>
+                <br>
+                <input type="submit" value="Cadastrar" class="botao">
+                <input type="reset" value="Limpar Campos" class="botao">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

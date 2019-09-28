@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Mega Portal</title>
+</head>
+<body>
+    <header>
+        <div class="int">
+            <div class="header-left">
+                <ul>
+                    <li class="header-left-links">Home</li>
+                    <li>Quem Somos</li>
+                    <li>Anuncie Aqui</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <input style="float: right; height: 28px; width: 28px; background: red;" type="image" src="img/lupa.png">  
+                <input class="header-search" type="text" placeholder="Busca...">
+                <img src="img/youtube.png" alt="YouTube" width="26">
+                <img src="img/twitter.png" alt="Twitter" width="26">
+                <img src="img/facebook.png" alt="Facebook" width="26">
+                <img src="img/googleplus.png" alt="G+" width="26">
+                <img src="img/rss.png" alt="RSS" width="26">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div style="background: white;">
+            <div class="int">
+                <div class="header">
+                    <div class="subheader-left">
+                        <img src="img/logo.png">
+                    </div>
+                    <div class="subheader-right">
+                        <h1 style="width: 100%; height: 90px; background: red; text-align: center; margin: 0;">PUBLICIDADE 728x90px</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="int">
+                <img class="menu-mobile" src="img/menu.png" alt="Menu" width="40" height="40" onclick="toggleMenu()">
+                <ul id="menu">
+                    <li>Home</li>
+                    <li>Economia</li>
+                    <li><span>Entretenimento</span>
+                        <img src="img/arrowdown.png" alt="ArrowDown">
+                        <div class="submenu">
+                            <ul class="submenu-list">
+                                <li>Submenu Item 1</li>
+                                <li>Submenu Item 2</li>
+                                <li>Submenu Item 3</li>
+                                <li>Submenu Item 4</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><span>Esporte</span>
+                        <img src="img/arrowdown.png" alt="ArrowDown">
+                        <div class="submenu">
+                            <ul class="submenu-list">
+                                <li>Submenu Item 1</li>
+                                <li>Submenu Item 2</li>
+                                <li>Submenu Item 3</li>
+                                <li>Submenu Item 4</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Geral</li>
+                    <li><span>Noticias</span>
+                        <img src="img/arrowdown.png" alt="ArrowDown">
+                        <div class="submenu">
+                            <ul class="submenu-list">
+                                <li>Submenu Item 1</li>
+                                <li>Submenu Item 2</li>
+                                <li>Submenu Item 3</li>
+                                <li>Submenu Item 4</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Policia</li>
+                    <li>Videos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="int">
+            <div class="lastnews">
+                <span>ULTIMAS NOTICIAS</span>
+                Criador da internet teme a perda de todas as nossas memórias digitais no futuro
+            </div>
+            <div class="container">
+                <div class="leftside">
+                    <div class="slideshow" id="slideshow">
+                        <div class="slidecontrol">
+                            <div class="control" onclick="mudarSlide(0)"></div>
+                            <div class="control" onclick="mudarSlide(1)"></div>
+                            <div class="control" onclick="mudarSlide(2)"></div>
+                            <div class="control" onclick="mudarSlide(3)"></div>
+                        </div>
+                        <div class="slideshowarea">
+                            <a href="https://www.quixeramobimenoticia.com.br/lutador-da-hadouken-em-adversario-e-vence-por-nocaute-tecnico-em-seguida/">
+                                <div class="slide" style="background-image: url('img/news-1.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo-title">Lutador dá “hadouken” em adversário e vence por nocaute técnico em seguida</div>
+                                        <div class="slideinfo-subtitle">Uma cena inusitada aconteceu na noite de quinta-feira, em Alberta, no Canadá, palco do WSOF. Shane C...</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.quixeramobimenoticia.com.br/7039-2/">
+                                <div class="slide" style="background-image: url('img/news-2.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo-title">IPVA em atraso: saiba o que fazer para regularizar a situação</div>
+                                        <div class="slideinfo-subtitle">A última parcela do Imposto sobre a Propriedade de Veículos Automotores (IPVA) 2019 venceu no último Dia 10 de Junho.</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.quixeramobimenoticia.com.br/8334-2/">
+                                <div class="slide" style="background-image: url('img/news-3.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo-title">Sucesso: nordestão de bicicross é realizado na cidade de Quixeramobim</div>
+                                        <div class="slideinfo-subtitle">Na tarde do último Domingo, Dia 25 de Agosto, o Município de Quixeramobim, no Sertão C...</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.quixeramobimenoticia.com.br/8572-2/">
+                                <div class="slide" style="background-image: url('img/news-4.jpg')">
+                                    <div class="slideinfo">
+                                        <div class="slideinfo-title">Prefeitura de Quixeramobim dá início a campanha setembro amarelo</div>
+                                        <div class="slideinfo-subtitle">A Prefeitura de Quixeramobim deu início às atividades alusivas a Campanha do Setembro Amarelo.</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-title">Noticias</div>
+                        <div class="widget-content">
+                            <div class="news-left">
+                                <div class="news-item news-big">
+                                    <div class="news-img">
+                                        <img src="img/bignews-1.jpg" alt="Bignews-1" width="384" height="222">
+                                    </div>
+                                    <div class="news-title" style="width: 384px; font-size: 25px; margin-left: 0;"><a href="https://portalnoticiei.com.br/2015/02/14/policia-militar-prende-quadrilha-com-drogas-e-metralhadora-na-zona-norte-de-teresina/">Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de Teresina</a></div>
+                                    <div class="news-info" style="margin-left: 0;">5 dias atras. Deixe um comentario.</div>
+                                </div>
+                            </div>
+                            <div class="news-right">
+                                <div class="news-item">
+                                    <div class="news-img">
+                                        <img src="img/subnews-1.jpg" alt="Subnews-1" width="80" height="80">
+                                    </div>
+                                    <div class="news-title"><a href="https://ipitanga.com.br/em-retorno-ao-mineirao-cruzeiro-empata-por-1-x-1-com-a-caldense-no-campeonato-mineiro/">Em retorno ao Mineirão, Cruzeiro empata por 1 x 1 com a Caldense no Campeonato Mineiro.</a></div>
+                                    <div class="news-info">5 dias atras. Deixe um comentario.</div>
+                                </div>
+                                <div class="news-item">
+                                    <div class="news-img">
+                                        <img src="img/subnews-2.jpg" alt="Subnews-2" width="80" height="80">
+                                    </div>
+                                    <div class="news-title"><a href="https://tvmojuba.net/2015/02/pessoas-como-ela-sao-alicerces-para-que-o-melhor-da-moda-nao-morra/">“Pessoas como ela são alicerces para que o melhor da moda não morra!”</a></div>
+                                    <div class="news-info">5 dias atras. Deixe um comentario.</div>
+                                </div>
+                                <div class="news-item">
+                                    <div class="news-img">
+                                        <img src="img/subnews-3.jpg" alt="Subnews-3" width="80" height="80">
+                                    </div>
+                                    <div class="news-title"><a href="https://gazetaonlineg.com/criador-da-internet-teme-a-perda-de-todas-as-nossas-memorias-digitais-no-futuro/">Criador da internet teme a perda de todas as nossas memórias digitais no futuro.</a></div>
+                                    <div class="news-info">5 dias atras. Deixe um comentario.</div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-title">Esportes</div>
+                        <div class="widget-content">
+                            <div class="news-left" style="width: 100%;">
+                                <div class="news-item news-big">
+                                    <div class="news-img" style="width: 330px;">
+                                        <img src="img/bignews-2.jpg" alt="Bignews-2" width="330" height="222">
+                                    </div>
+                                    <div class="news-title" id="sports-news" style="width: 384px; font-size: 25px; float: right;"><a href="http://globoesporte.globo.com/rn/futebol/times/america-rn/noticia/2015/02/sem-descanso-america-rn-tera-apenas-um-dia-de-folga-no-carnaval.html">Sem descanso! América-RN terá apenas um dia de folga no carnaval</a></div>
+                                    <div class="news-info" style="margin-left: 3.5%;">5 dias atras. Deixe um comentario.</div>
+                                </div>
+                            </div>
+                            <div style="clear: both"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <div class="widget">
+                        <div class="widget-title">Social</div>
+                        <div class="widget-content">
+                            <img src="img/rss.png" alt="RSS" width="26">
+                            <img src="img/googleplus.png" alt="G+" width="26">
+                            <img src="img/facebook.png" alt="Facebook" width="26">
+                            <img src="img/twitter.png" alt="Twitter" width="26">
+                            <img src="img/youtube.png" alt="YouTube" width="26">
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-title">Ultimas Noticias</div>
+                        <div class="widget-content">
+                            <span>Polícia Militar prende quadrilha com drogas e metralhadora na zona norte de Teresina</span>
+                            <span>Em retorno ao Mineirão, Cruzeiro empata por 1x1 com Caldense no campeonato Mineiro</span>
+                            <span>"Pessoas como ela são alicerces para que o melhor da moda não morra"</span>
+                            <span>Criador da internet teme a perda de todas as nossas memórias digitais no futuro</span>
+                            <span style="border-bottom: none;">Barack Obama é flagrado tirando foto com "pau de selfie"</span>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-title">Publicidade</div>
+                        <div class="widget-content">
+                            <img src="img/banner.jpg" alt="Banner" width="275">
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-title">Encontre-nos no Facebook</div>
+                        <div class="widget-content">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FB7Web&tabs=timeline&width=275&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="275" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

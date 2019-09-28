@@ -1,0 +1,80 @@
+body {
+    border-top: 50px solid #45543D;
+    margin: 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: inherit;
+    color: #363636;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+#corpo {
+    margin: 50px 150px;
+}
+
+#formulario {
+    text-align: left;
+    margin: 0 0px;
+}
+
+#formulario .direita {
+    float: right;
+    width: 50%;
+
+}
+
+#formulario .esquerda {
+    float: left;
+    width: 50%;
+
+}
+
+#formulario label {
+    line-height: 30px;
+    text-align: left;
+    color: #363636;
+}
+
+#formulario input {
+    padding: 9px;
+    border: 1px solid #CCCCCC;
+    background: #E8EFE4;
+    border-radius: 4px;
+    color: #363636;
+}
+
+#formulario select {
+    padding: 9px;
+    border: 1px solid #CCCCCC;
+    background: #E8EFE4;
+    border-radius: 4px;
+    color: #363636;
+}
+
+#formulario .botao {
+    cursor: pointer;
+    text-align: left;
+    margin: 0 0 0 0;
+    color: #FFF;
+    background-color: #45543D;
+    margin-top: 10px;
+}
+
+#formulario .botao:hover {
+    background-color: #354030;
+}
+
+#copy {
+    color: #363636;
+    text-align: center;
+    margin: 50px 150px;
+}
