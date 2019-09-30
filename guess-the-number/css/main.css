@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+div {
+    display: inline-block;
+    background: black;
+}
+
+div, input {
+    font-size: 80px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 200px;
+}
+
+button {
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+*:focus {
+    outline: 0;
+}
+
+button:hover {
+    text-decoration: underline;
+}
