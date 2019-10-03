@@ -28,3 +28,12 @@ function removeBalloon(balloon) {
         document.querySelector(".popped-balloons h2").innerHTML = parseInt(document.querySelector(".popped-balloons h2").innerHTML) + 1;
     }
 }
+
+function blowEmAll() {
+    let balloons = document.getElementsByClassName("balloon");
+    for (i=0; i < balloons.length; i++) {
+        document.body.removeChild(balloons[i])
+    }
+    document.querySelector(".created-balloons h2").innerHTML = "#"
+    document.querySelector(".balloons-on-screen h2").innerHTML = "#"
+}
