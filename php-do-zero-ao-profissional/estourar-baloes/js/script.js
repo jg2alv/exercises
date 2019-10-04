@@ -34,6 +34,5 @@ function blowEmAll() {
     for (i=0; i < balloons.length; i++) {
         document.body.removeChild(balloons[i])
     }
-    document.querySelector(".created-balloons h2").innerHTML = "#"
-    document.querySelector(".balloons-on-screen h2").innerHTML = "#"
+    document.querySelector(".balloons-on-screen h2").innerHTML = document.getElementsByClassName("balloon").length;
 }

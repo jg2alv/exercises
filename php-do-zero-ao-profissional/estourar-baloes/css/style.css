@@ -24,6 +24,7 @@ body {
     display: inline-block;
     z-index: 2;
     background: white;
+    cursor: pointer;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
     z-index: 2;
     right: 0;
     top: 0;
-    margin: 2.3vw;
+    margin: 1.3vw;
     background: white;
     position: absolute;
     border: rgba(0, 0, 0, 0.1) 2px solid;
@@ -50,6 +51,7 @@ h1 {
 .leaderboard h1 {
     border-bottom: rgba(0, 0, 0, 0.1) 2px solid;
     font-size: 3vw;
+    text-align: center;
 }
 
 .popped-balloons,
