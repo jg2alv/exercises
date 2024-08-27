@@ -1,7 +1,10 @@
 #lang sicp
 
-(define (square a) (* a a))
-(define (sum-square-two-larger a b c)
-	(cond ((and (> a b) (> a c) (> b c)) (+ (square a) (square b))
-	      ((and (b > a) (> b c) (> a c)) (+ (square a) (square b))
-	      ((and (
+
+(define (square-sum-of-two-largest a b c)
+  (define (square a) (* a a))
+  (define (square-sum a b) (+ (square a) (square b)))
+  (cond ((and (< a b) (< a c)) (square-sum b c))
+        ((and (< b a) (< b c)) (square-sum a c))
+        ((and (< c a) (< c b)) (square-sum a b)))
+)
